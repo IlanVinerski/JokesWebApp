@@ -7,13 +7,13 @@ Submit Jokes: Users can add their jokes to the collection.
 Authentication: Users need to log in to submit new jokes, ensuring a safe and secure environment.
 Database Interaction: Fetch, display, and manipulate joke data using SQL Server.
 
-#Technologies Used
+# Technologies Used
 ASP.NET Core MVC: Framework for building the app with a clean separation of concerns.
 SQL Server: Database management system for storing and retrieving jokes.
 Authorization: User authentication for secure access and content management.
 CSS: For styling and creating a visually appealing interface.
 
-#Getting Started
+# Getting Started
 .NET SDK installed on your machine
 SQL Server or SQL Server Express installed
 A code editor like Visual Studio or Visual Studio Code
