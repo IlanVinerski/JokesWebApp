@@ -1,5 +1,30 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break:break-all;
+}
+
+/*Provide sufficient cntrast against white background*/
+a{
+    color: #0366d6;
+}
+
+.btn-primary {
+    color:#fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
 html {
   font-size: 14px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    box-shadow: 0 .25rem .75rem rgba(0,0,0, .05);
 }
 
 @media (min-width: 768px) {
@@ -19,4 +44,13 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:#eee;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space:nowrap;
+    line-height:60px; /*Vertically center the text there*/
 }
